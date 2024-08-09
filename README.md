@@ -48,8 +48,6 @@ Ensure you have the following installed on your local machine:
   - Go to the repository settings and enable GitHub Pages.
   - Your website will be available at https://<username>.github.io/Portfolio-Website.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
