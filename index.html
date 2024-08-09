@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/img/Jayjo.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>My Portfolio Website</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <!-- &#60;&#62; -->
+        <a href="#home" class="nav-logo">Jay Jo</a>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact">Contact</a>
+          </li>
+          <li class="nav-item">
+          <a href = "#" onclick="myFunction()"> <img src="./assets/img/sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hi 👋,<br />I'am <span class="home-title-color">Johan</span><br />
+         <span id="jobTitle" >Student</span> 
+        </h2>
+
+        <a href="https://drive.google.com/file/d/1uzlN-81qMrAKDJd5M5dY7KY9iPr9sDSq/view" target="_blank"
+          class="button">Resume</a>
+
+      </div>
+
+      <div class="home-social">
+        <a href="https://www.linkedin.com/in/johan-jayjo/" target="_blank" class="home-social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Jay-Jo9802" target="_blank" class="home-social-icon"><i
+            class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home-img">
+        <div style="width:100%;height:0;padding-bottom:72%;position:relative;">
+          <iframe src="https://giphy.com/embed/JqmupuTVZYaQX5s094" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </div>
+        <a href="https://giphy.com/gifs/Smolverse-smol-smolverse-swol-JqmupuTVZYaQX5s094"></a>
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-container bd-grid">
+        <div class="about-img">
+          <img src="assets/img/Johan.jpeg" alt="" />
+        </div>
+
+        <div style="text-align: center">
+          <h2 class="about-subtitle">I'am Johan</h2>
+          <p class="about-text">
+            As a third-year student majoring in Informatics Engineering at Gunadarma University, I have a deep 
+            interest in technology and computers. With a solid understanding of the foundations of Computer Science, 
+            I have been actively involved in various development projects. My goal is to continue improving my skills
+            and exploring the many interesting aspects of the Computer Science world. I am a keen learner, always open 
+            to new experiences and collaboration in achieving common goals.<br/>
+            <br/>
+
+            In addition, I recently graduated from the Bangkit Academy program, specializing in Cloud Computing, where I 
+            achieved a satisfactory grade. The program has significantly expanded my professional network and provided me 
+            with valuable insights into the technology industry. Through this experience, I have honed my technical expertise 
+            and am eager to apply my knowledge in real-world applications.
+          </p>
+          <br />
+          <p>
+            Drop a mail johanlim982@gmail.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!---========Education ======--->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="education-container bd-grid">
+
+        <div class="education-data">
+          <div class="education-names">
+            <img class="education-icon" src="./assets/img/gunadarma.png" alt="Gunadarma University Logo" />
+            <div class="education-details">
+              <span class="education-name">Bachelor Of Informatics</span>
+              <p class="education-platform">Gunadarma University</p>
+              <p class="education-duration">2021 - Present</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-container bd-grid">
+        <div class="education-data">
+          <div class="education-names">
+            <img class="education-icon" src="./assets/img/smk.png" alt="SMK Negeri 1 Bintuni Logo" />
+            <div class="education-details">
+              <span class="education-name">Vocational High School</span>
+              <p class="education-platform">SMK Negeri 1 Bintuni</p>
+              <p class="education-duration">2018 - 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-container bd-grid">
+        <div class="education-data">
+          <div class="education-names">
+            <img class="education-icon" src="./assets/img/Smp.png" alt="SMP Negeri Terpadu Bintuni Logo" />
+            <div class="education-details">
+              <span class="education-name">Junior High School</span>
+              <p class="education-platform">SMP Negeri Terpadu Bintuni</p>
+              <p class="education-duration">2015 - 2018</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container bd-grid">
+        <div class="skills-column">
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/html.png" alt="HTML Icon" />
+              <span class="skills-name">HTML</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/css.png" alt="CSS Icon" />
+              <span class="skills-name">CSS</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/js.png" alt="JavaScript Icon" />
+              <span class="skills-name">JavaScript</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/python.png" alt="Python Icon" />
+              <span class="skills-name">Python</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skills-column">
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/github.svg" alt="GitHub Icon" />
+              <span class="skills-name">GitHub</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/gcp.png" alt="Google Cloud Icon" />
+              <span class="skills-name">Google Cloud Platform</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/canva.png" alt="Canva Icon" />
+              <span class="skills-name">Canva</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/figma.png" alt="Figma Icon" />
+              <span class="skills-name">Figma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--===== Projects =====-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+    
+      <div class="project-container">
+        <!-- Final Capstone Project -->
+        <div class="project-img">
+          <img src="assets/img/floravista1.png" alt="Final Capstone Project" />
+          <p class="project-title">Final Capstone Project</p>
+          <p class="project-subtitle">
+            This project is our final endeavor at Bangkit Academy 2024 Batch 1, created by our team, 
+            FloraVista, to tackle real-world challenges. We developed a comprehensive 
+            agriculture app featuring crop type predictions with details on names, 
+            descriptions, and benefits; plant disease predictions with information on 
+            names, descriptions, and treatments; and soil type predictions with guidance 
+            on suitable plants. Our goal is to enhance sustainability, food independence, 
+            and economic growth by providing accessible and practical farming solutions.
+            <br />
+            <br />
+            Tools :
+            <br />Figma | Python | JavaScript | Hapi | Kotlin | Google Collab 
+          </p>
+          <div class="project-btns">
+            <a href="https://www.figma.com/proto/y63UH64wUfvC62WpZt0LRP/Untitled?node-id=1-431&starting-point-node-id=1%3A431" target="_blank" class="small-btn button">
+              <i class="bx bxl-figma"></i>
+            </a>
+            <a href="https://github.com/Flora-Vista-Bangkit-Capstone" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+        </div>
+    
+        <!-- Scientific Writing Project -->
+        <div class="project-img">
+          <img src="assets/img/penulisan-ilmiah.png" alt="Scientific Writing Project" />
+          <p class="project-title">Scientific Writing Project</p>
+          <p class="project-subtitle">
+            This project was developed into a web application following the Final Capstone 
+            Project to fulfill the requirements of the Scientific Writing course and the 
+            faculty defense. The application uses CNN, TensorFlow, Flask, and Streamlit to 
+            identify plant diseases from leaf images. With 4,500 images and 15 types of diseases, 
+            the application provides disease predictions and management information. The aim is 
+            to offer effective solutions for plant management while meeting academic requirements.
+            <br />
+            <br />
+            Tools :
+            <br />Google Collab | Python | Flask API | Streamlit
+          </p>
+          <div class="project-btns">
+            <a href="https://penulisan-ilmiah-johan-app-pengenalan-penyakit-tanaman.streamlit.app/" target="_blank" class="small-btn button">
+              <i class="bx bx-link-external"></i>
+            </a>
+            <a href="https://github.com/Jay-Jo9802/Aplikasi-Pengenalan-Penyakit-Tanaman" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+        </div>
+    
+        <!-- Existing Project 1: Bedroom Design -->
+        <div class="project-img">
+          <img src="assets/img/Blender.png" alt="Bedroom Design" />
+          <p class="project-title">Bedroom Design</p>
+          <p class="project-subtitle">
+            The purpose of this project is how to create a 3D Interior Room using
+            modeling and texturing with the Blender application. The 3D Interior
+            Room I made is themed on the bedroom I like, made with a not too
+            luxurious but comfortable feel.
+            <br />
+            <br />
+            Tools :
+            <br />Blender
+          </p>
+          <div class="project-btns">
+            <a href="https://drive.google.com/drive/folders/1fc6TutHvkcfj5wr20h0obe6_G824aGSG?usp=sharing" target="_blank"
+              class="small-btn button">
+              <i class="bx bx-file"></i>
+            </a>
+          </div>
+        </div>
+    
+        <!-- Existing Project 2: Portfolio Website -->
+        <div class="project-img">
+          <img src="assets/img/Webku.png" alt="Portfolio Website" />
+          <p class="project-title">Portfolio Website</p>
+          <p class="project-subtitle">
+            A website portfolio created to complete the Labti practicum exam with
+            PWEB practicum subjects. This project was done by 4 people with 1 week
+            of work.
+            <br />
+            <br />
+            Tools :
+            <br /> HTML | CSS | Javascript | Node.JS | React
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/Jay-Jo9802/project-portofolio" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://portofolio-kelompok3-johan.netlify.app/" target="_blank" class="small-btn button">
+              Live
+            </a>
+          </div>
+        </div>
+    
+        <!-- Existing Project 3: Effective Website & SEO -->
+        <div class="project-img">
+          <img src="assets/img/SEO.JPG" alt="Effective Website & SEO" />
+          <p class="project-title">Effective Website & SEO</p>
+          <p class="project-subtitle">
+            I completed the 'Effective Website & SEO' course at Cariilmu.co.id as
+            part of the 62nd batch of the Pre-Employment programme. During the 5
+            days and 15 hours of learning, I gained valuable insights into
+            creating a WordPress website, optimising it for SEO, and marketing
+            products effectively with WooCommerce. I also honed my skills in
+            creating visually appealing websites using templates and Elementor.
+            <br />
+            <br />WordPress | SEO | Marketing
+          </p>
+          <div class="project-btns">
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7127154502314467328/" target="_blank"
+              class="small-btn button">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+          </div>
+        </div>
+    
+        <!-- Existing Project 4: Podio App Design -->
+        <div class="project-img">
+          <img src="assets/img/Desain.png" alt="Podio App Design" />
+          <p class="project-title">Podio App Design</p>
+          <p class="project-subtitle">
+            This project is made individually to complete the exam from the Labti
+            practicum with the Human and Computer Interaction course. This project
+            consists of Wireframe, Mockup, and Prototype.
+            <br />
+            <br />
+            Tools :
+            <br />Figma
+          </p>
+          <div class="project-btns">
+            <a href="https://www.figma.com/file/BbG9HJhgn45JWEOWo5YvmA/Johan_50421686?type=design&node-id=3-59&mode=design"
+              target="_blank" class="small-btn button">
+              <i class="bx bxl-figma"></i>
+            </a>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+
+  </main>
+
+  <!--===== FOOTER + CONTACT=====-->
+  
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="footer-title">Johan</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/johan-jayjo/" target="_blank" class="footer-icon">
+        <i class="bx bxl-linkedin-square">
+          <br />
+          LinkedIn</i></a>
+
+      <a href="https://www.instagram.com/jay_jo9802/" target="_blank" class="footer-icon">
+        <i class="bx bxl-instagram-alt">
+          <br />
+          Instagram</i></a>
+
+      <a href="mailto:johanlim982@gmail.com" target="_blank" class="footer-icon">
+        <i class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+
+      <a href="tel:+62 82248455336" target="_blank" class="footer-icon">
+        <i class="bx bxs-phone-call">
+          <br />
+          Phone</i></a>
+
+      <a href="https://github.com/Jay-Jo9802" target="_blank" class="footer-icon"><i
+            class="bx bxl-github">
+          <br />
+          GitHub
+          </i></a>
+
+    </div>
+    <p>&#169; 2024 copyright all right reserved | Johan</p>
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
